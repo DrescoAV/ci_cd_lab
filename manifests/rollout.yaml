@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/DrescoAV/ci_cd_lab:latest
+          image: ghcr.io/DrescoAV/go-simple-webserver@sha256:71f176b72562069c281bccbdbdeb90c172ff108686e9d674b040f819deaa821a
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
